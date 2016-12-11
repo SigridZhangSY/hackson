@@ -1,6 +1,9 @@
  .reasons {
    width: 80%;
    margin: 100px auto;
+   h1, h4 {
+     color: #4b4b4b;
+   }
    .reason-item {
      display: inline-block;
      float: left;
