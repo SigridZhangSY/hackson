@@ -15,6 +15,9 @@ class Header extends React.Component {
                     <Link className="link" to="/">
                         注册
                     </Link>
+                    <Link className="link" to="/">
+                        帮助
+                    </Link>
                 </div>
             </div>
         );
