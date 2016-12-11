@@ -1,0 +1,19 @@
+.header{
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+
+  .entrypoint{
+    float: right;
+
+    .link{
+      padding-right: 10px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .logo{
+    float: left;
+  }
+}

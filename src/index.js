@@ -4,12 +4,11 @@ import {Router, Route, IndexRedirect, hashHistory} from 'react-router'
 import {createStore, applyMiddleware} from 'redux'
 import {Provider} from 'react-redux'
 import thunk from 'redux-thunk';
-// import rootReducer from './reducers/index'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import routes from './routes'
 import rootReducer from './reducers/index'
 
-const store = createStore(applyMiddleware(thunk));
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
     (<Provider store={store}>
