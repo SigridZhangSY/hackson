@@ -34,8 +34,7 @@ module.exports = {
         contentBase: __dirname + '/dist',
     },
     plugins: [new HtmlWebpackPlugin({
-        title: "fcde",
+        title: "",
         template: "src/index.html",
-        favicon: "src/icon/favicon.ico"
     })],
 };

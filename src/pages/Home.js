@@ -1,6 +1,4 @@
 import React from 'react';
-import Sidebar from '../components/sidebar/Sidebar';
-import '../stylesheets/main.scss';
 
 export default class Home extends React.Component {
     render() {
