@@ -1,0 +1,28 @@
+.addInfoLink {
+  border: solid 1px lightgray;
+  width: 340px;
+  display: inline-block;
+  margin-right: 50px;
+  color: #333;
+
+  .pic {
+    width: 100%;
+  }
+
+  .title {
+    margin-top: 40px;
+  }
+
+  .paragraph {
+    color: darkgray;
+  }
+
+  .link {
+    color: deepskyblue;
+    margin-top: 50px;
+  }
+}
+
+#lastAddInfoLink {
+  margin-right: 0;
+}

@@ -1,8 +1,24 @@
-.welcome-background {
-  width: 100%;
-}
-
-.welcome-text {
+.welcome {
   position: absolute;
-  top: 190px;
+  top: 0;
+  z-index: -1;
+
+  .welcome-background {
+    width: 100%;
+  }
+
+  .welcome-text {
+    position: absolute;
+    top: 190px;
+    margin: 30px;
+    h1{
+      margin: 5px !important;
+    }
+    .content {
+      width: 400px;
+      margin: 5px !important;
+      padding: 20px 0;
+    }
+    color: #4b4b4b;
+  }
 }
