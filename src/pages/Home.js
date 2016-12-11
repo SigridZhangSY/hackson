@@ -10,6 +10,6 @@ export default class Home extends React.Component {
                     <Welcome title="成为合作社的主人,把世界迎进您的身边。" text="懂得'共'精神,体验真正的合作精神"/>
                 </div>
             </div>
-        );
+        )
     }
 }
