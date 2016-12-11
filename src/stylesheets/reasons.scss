@@ -1,12 +1,14 @@
  .reasons {
-   //float: left;
-   //clear: both;
-   //margin: 0 auto;
-   //position: relative;
-   //@include clearfix;
+   width: 80%;
+   margin: 100px auto;
    .reason-item {
-     //display: inline-block;
+     display: inline-block;
      float: left;
-     width: 33%;
+     width: 33.33%;
+     padding-right: 10px;
+     padding-top: 30px;
+     .paragraph {
+       color: darkgrey;
+     }
    }
  }
