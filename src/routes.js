@@ -4,6 +4,7 @@ import Layout from './components/Layout'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Home from './pages/Home';
+import Header from './components/Header';
 
 export default function routes(store) {
     function requireAuth(nextState, replace) {
@@ -18,7 +19,7 @@ export default function routes(store) {
     return (
         <MuiThemeProvider>
             <Route component={Layout}>
-                <Route path="/" components={{main: Home}}/>
+                <Route path="/" components={{header:Header, main: Home}}/>
             </Route>
         </MuiThemeProvider>
     )
