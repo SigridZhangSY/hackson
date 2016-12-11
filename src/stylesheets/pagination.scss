@@ -1,0 +1,17 @@
+.paginationList{
+  text-align: center;
+  .number{
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    min-height: 30px !important;
+    line-height: 30px !important;
+    span{
+      padding-left: 11px!important;
+    }
+  }
+  .select{
+    background-color: #00bcd4 !important;
+    color: black !important;
+  }
+}

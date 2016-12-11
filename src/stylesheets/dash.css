@@ -1,0 +1,33 @@
+.subNavWrap {
+  width: 70px;
+  background-color: #717171;
+  height: 100%;
+  padding: 0;
+  display: table-cell; }
+
+.contentList {
+  display: table-cell;
+}
+
+.tabItem {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  text-align: center; }
+  .tabItem li {
+    list-style-type: none;
+    margin-top: 5px; }
+    .tabItem li img {
+      width: 30px; }
+
+.contentItem {
+  height: 100%; }
+
+.listWrap {
+  height: 100%;
+  display: table; }
+
+.dashBoard {
+  height: 100%; }

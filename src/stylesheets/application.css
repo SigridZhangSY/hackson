@@ -1,0 +1,9 @@
+.application-tab {
+  margin-top: 10px; }
+  .application-tab .title {
+    padding: 10px;
+    border: solid gray 1px; }
+  .application-tab input {
+    background-color: white; }
+
+/*# sourceMappingURL=application.css.map */

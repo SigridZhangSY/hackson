@@ -1,0 +1,67 @@
+.tab-content {
+  color: #ababab; }
+  .tab-content .tab-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 30px 10px 10px;
+    padding: 5px 5px 10px 10px;
+    border-bottom: solid #ababab 1px; }
+  .tab-content .tab-main-content .left, .tab-content .tab-main-content .right {
+    float: left;
+    padding: 0;
+    margin: 0; }
+    .tab-content .tab-main-content .left .list li, .tab-content .tab-main-content .right .list li {
+      list-style: none; }
+  .tab-content .tab-main-content .left {
+    width: 70%;
+    overflow: auto; }
+    .tab-content .tab-main-content .left .list {
+      margin: 10px 100px 10px 10px;
+      padding: 0; }
+      .tab-content .tab-main-content .left .list li {
+        border-bottom: solid #ababab 1px; }
+      .tab-content .tab-main-content .left .list p {
+        margin: 20px; }
+      .tab-content .tab-main-content .left .list .stack-name {
+        text-align: left;
+        font-weight: bold; }
+      .tab-content .tab-main-content .left .list .stack-describe, .tab-content .tab-main-content .left .list .stack-owner {
+        text-align: left;
+        font-weight: lighter; }
+      .tab-content .tab-main-content .left .list .stack-owner {
+        padding-left: 50px; }
+      .tab-content .tab-main-content .left .list .stack {
+        float: left;
+        width: 75%;
+        font-size: 13px; }
+      .tab-content .tab-main-content .left .list .instantiate {
+        border: solid #ababab 1px;
+        width: 19%;
+        border-radius: 10px;
+        margin-top: 30px; }
+        .tab-content .tab-main-content .left .list .instantiate p {
+          margin: 15px 5px;
+          float: left; }
+        .tab-content .tab-main-content .left .list .instantiate img {
+          width: 25px;
+          margin: 10px 5px 10px 5px;
+          float: left; }
+  .tab-content .tab-main-content .right {
+    width: 30%; }
+    .tab-content .tab-main-content .right .language-list {
+      border: solid #ababab 1px;
+      margin: 15px 30px 10px 15px;
+      height: 350px; }
+      .tab-content .tab-main-content .right .language-list p {
+        margin: 0;
+        text-align: left; }
+      .tab-content .tab-main-content .right .language-list .title {
+        font-size: 15px;
+        padding: 15px 10px; }
+      .tab-content .tab-main-content .right .language-list .item {
+        font-size: 12px;
+        padding: 10px 15px; }
+  .tab-content p {
+    color: #9f9f9f;
+    text-align: center;
+    margin-top: 200px; }

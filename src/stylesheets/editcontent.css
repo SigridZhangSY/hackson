@@ -1,0 +1,12 @@
+.edit .upper {
+  background-color: #00bcd4; }
+.edit .input-field {
+  padding: 20px;
+  width: 200px;
+  height: 200px; }
+  .edit .input-field .input {
+    padding-left: 15px; }
+.edit .btn {
+  float: right; }
+
+/*# sourceMappingURL=editcontent.css.map */

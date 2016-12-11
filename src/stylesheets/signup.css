@@ -1,0 +1,110 @@
+.signup-box, .signin-box {
+  text-align: center; }
+  .signup-box .input, .signin-box .input {
+    width: 250px;
+    margin: 0 auto;
+    text-align: left; }
+    .signup-box .input p, .signin-box .input p {
+      color: black;
+      font-size: 20px;
+      margin: 0;
+      font-weight: lighter;
+      padding: 5px 0 0; }
+    .signup-box .input label, .signin-box .input label {
+      color: black;
+      font-size: 20px;
+      margin: 0;
+      font-weight: lighter;
+      padding: 5px 0 0; }
+    .signup-box .input input, .signin-box .input input {
+      width: 250px;
+      height: 30px;
+      background-color: #efefef;
+      border: solid #c6c6c6 1px;
+      border-radius: 3px;
+      margin-bottom: 10px; }
+    .signup-box .input .signup-but, .signup-box .input .signin-but, .signin-box .input .signup-but, .signin-box .input .signin-but {
+      width: 80px;
+      background-color: black;
+      color: white;
+      border: solid black;
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 10px 0; }
+    .signup-box .input .other, .signin-box .input .other {
+      width: 300px;
+      height: auto; }
+      .signup-box .input .other .signin, .signin-box .input .other .signin {
+        border-right: solid gray;
+        border-width: 1px;
+        width: 100px;
+        margin: 30px 0;
+        float: left; }
+        .signup-box .input .other .signin .signin-but, .signin-box .input .other .signin .signin-but {
+          width: 80px;
+          background-color: black;
+          border: solid black;
+          margin: 0;
+          padding: 0 10px;
+          border-radius: 3px; }
+          .signup-box .input .other .signin .signin-but li, .signin-box .input .other .signin .signin-but li {
+            list-style: none; }
+            .signup-box .input .other .signin .signin-but li a, .signin-box .input .other .signin .signin-but li a {
+              font-size: 15px;
+              color: white;
+              font-weight: lighter; }
+      .signup-box .input .other .help, .signin-box .input .other .help {
+        float: left;
+        margin: 35px 0;
+        text-align: left; }
+        .signup-box .input .other .help ul, .signin-box .input .other .help ul {
+          padding: 0 10px; }
+          .signup-box .input .other .help ul li, .signin-box .input .other .help ul li {
+            list-style: none;
+            font-weight: 200; }
+            .signup-box .input .other .help ul li a, .signin-box .input .other .help ul li a {
+              color: black; }
+      .signup-box .input .other .signup, .signin-box .input .other .signup {
+        width: 80px;
+        margin: 30px 0;
+        float: left; }
+        .signup-box .input .other .signup .signup-but, .signin-box .input .other .signup .signup-but {
+          width: 80px;
+          background-color: black;
+          border: solid black;
+          margin: 0;
+          padding: 0 10px;
+          border-radius: 3px; }
+          .signup-box .input .other .signup .signup-but li, .signin-box .input .other .signup .signup-but li {
+            list-style: none; }
+            .signup-box .input .other .signup .signup-but li a, .signin-box .input .other .signup .signup-but li a {
+              font-size: 15px;
+              color: white;
+              font-weight: lighter; }
+      .signup-box .input .other .forget, .signin-box .input .other .forget {
+        width: 110px;
+        float: left;
+        margin: 30px 0 0 5px; }
+        .signup-box .input .other .forget .forget-but, .signin-box .input .other .forget .forget-but {
+          background-color: black;
+          border: solid black;
+          margin: 0;
+          padding: 1px 10px;
+          border-radius: 3px; }
+          .signup-box .input .other .forget .forget-but li, .signin-box .input .other .forget .forget-but li {
+            list-style: none; }
+            .signup-box .input .other .forget .forget-but li a, .signin-box .input .other .forget .forget-but li a {
+              font-size: 11px;
+              color: white;
+              font-weight: lighter; }
+  .signup-box .title h1, .signin-box .title h1 {
+    color: black;
+    font-weight: bolder;
+    font-style: normal; }
+
+.signin-box .input {
+  height: auto; }
+
+.signup-box .input {
+  height: 380px; }
+

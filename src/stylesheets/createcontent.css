@@ -1,0 +1,33 @@
+.paper {
+  height: 200px;
+  width: 700px;
+  margin: 20px;
+  padding: 20px;
+  textAlign: 'center';
+  display: inline-block; }
+
+.label {
+  width: 70px;
+  float: left;
+  padding: 5px; }
+
+.input-1 {
+  margin: 50px auto; }
+
+.input-2 {
+  margin: auto 10px; }
+
+.error {
+  float: right;
+  width: 220px;
+  padding-top: 5px; }
+  .error .icon, .error .message {
+    color: red !important;
+    float: left; }
+  .error .icon {
+    margin-right: 5px; }
+  .error .message {
+    font-size: 17px;
+    margin-bottom: 40px; }
+
+/*# sourceMappingURL=createcontent.css.map */
