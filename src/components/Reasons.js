@@ -2,13 +2,14 @@
  * Created by pzzheng on 12/11/16.
  */
 import React from 'react';
+import '../stylesheets/reasons.scss';
 class Reasons extends React.Component {
     render() {
-        var items = this.props.reasons.map(reason => <ReasonItem reasonTitle={reason.title} reasonDescription={reason.description} />);
+        var items = this.props.reasons.map(reason => <li><ReasonItem reasonTitle={reason.title} reasonDescription={reason.description} /></li>);
         return (
-            <div>
+            <div className="reasons">
                 <h1>为什么你会爱上它</h1>
-                {items}
+                <ul>{items}</ul>
             </div>
         )
     }
