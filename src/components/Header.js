@@ -1,6 +1,10 @@
 import React from 'react';
 import {AppBar, FlatButton} from 'material-ui';
 import {Link} from 'react-router';
+
+import SignUp from './SignUp';
+import Login from './Login';
+import Help from './Help';
 import '../stylesheets/header.scss';
 
 class Header extends React.Component {
@@ -9,15 +13,15 @@ class Header extends React.Component {
             <div className="header">
                 <div className="logo">LOGO</div>
                 <div className="entrypoint">
-                    <Link className="link" to="/">
-                        登录
-                    </Link>
-                    <Link className="link" to="/">
-                        注册
-                    </Link>
-                    <Link className="link" to="/">
-                        帮助
-                    </Link>
+                    <div className="link">
+                        <SignUp />
+                    </div>
+                    <div className="link">
+                        <Login />
+                    </div>
+                    <div className="link">
+                        <Help />
+                    </div>
                 </div>
             </div>
         );
