@@ -1,7 +1,7 @@
 import React from 'react';
 import {Router, Route, IndexRedirect, hashHistory} from 'react-router'
 import Layout from './components/Layout'
-
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Home from './pages/Home';
 
@@ -16,8 +16,10 @@ export default function routes(store) {
     }
 
     return (
-        <Route component={Layout}>
-            <Route path="/" components={{main: Home}}/>
-        </Route>
+        <MuiThemeProvider>
+            <Route component={Layout}>
+                <Route path="/" components={{main: Home}}/>
+            </Route>
+        </MuiThemeProvider>
     )
 }
